@@ -1,0 +1,465 @@
+* {
+    background-color: rgba(255, 255, 255, 0.0);
+    color: black;
+}
+body {
+    background-color: black;
+}
+header {
+    padding: 40px;
+    display: flex;
+    background: black;
+}
+#home {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(0, 0, 0);
+}
+#home ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    
+
+}
+#home ul li {
+    height: 4vh;
+    padding-left: 1px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    height: 4vh;
+    background: white;
+    
+}
+#home ul li:hover {
+    background: rgba(236, 136, 194, 0.8);
+    height: 4vh;
+}
+#home ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.logo {
+    left: 0;
+    background: black;
+
+
+}
+.logo :hover {
+    background: none;
+}
+.logo img {
+    width: 100px;
+}
+input {
+    width: 150px;
+    background: black;
+}
+h5 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 2vh;
+    background: rgb(255, 255, 255);
+}
+.icofont-fast-delivery {
+    font-size: 15px;
+    background: rgba(255, 93, 193, 0.1);
+}
+.icofont-search-2 {
+    font-size: 25px;
+    padding-left: 30%;
+    color: white
+}
+.icofont-girl-alt {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-funky-man {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-student {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-student-alt {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-beach {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-optic {
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.pesquisar {
+    background: rgb(0, 0, 0);
+    width: 30%;
+    height: 30px;
+    border: 50%;
+    border-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+#mainhome {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+body {
+    font-family: Verdana, sans-serif;
+}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+}
+.slideshow-container {
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+.text {
+    color: rgb(242, 242, 242);
+    font-size: 15px;
+    padding: 15px 12px;
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active {
+    background-color: #717171;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(228, 223, 223);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(243, 236, 236, 0.8);
+}
+.pontos {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.icofont-grocery {
+    color: white;
+    font-size: 30px;
+    padding-left: 15px;
+}
+.icofont-heart-alt {
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+}
+div.box {
+    width: 600px;
+    display: inline-block;
+    padding-left: 230px;
+}
+.frete {
+    color: white;
+}
+.troca {
+    color: white;
+}
+.icofont-free-delivery {
+
+    font-size: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-loop {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.faixa {
+    column-width: 300px;
+    column-gap: 100px;
+    column-rule: 1px solid rgb(255, 255, 255);
+}
+.topico {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    padding: 1%;
+    margin: 0 0 1em 0;
+}
+.icofont-credit-card {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-free-delivery {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.icofont-qr-code {
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 400px;
+    border: 8px solid rgb(255, 255, 255);
+}
+.coluna {
+    float: left;
+    max-width: 320px;
+    color: rgb(255, 255, 255);
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    text-align: center;
+    max-width: 210px;
+}
+.oferta::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+h4 {
+    
+    padding: 8px 4px;
+    color:rgb(0, 0, 0);
+    padding-left: 30px;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    
+    
+}
+.popular::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+label {
+    color: rgb(255, 255, 255);
+}
+.desconto {
+    color: rgb(248, 160, 160);
+    font-size: 17px;
+    font-family: Poppins, arial, sans-serif;
+    font-weight: 500;
+    margin-left: 4px;
+    text-decoration: line-through;
+    pointer-events: none;
+}
+.entrar a {
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+.icofont-instagram{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+h8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.icofont-favourite {
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    font-size: 22px;
+}
+/*.icofont-brand-whatsapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    border-radius: 100%;
+    max-width: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    font-size: 30px;*/
+.icofont-whatsapp { 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+  
+}
+.icofont-facebook{
+    
+    color: white;
+    font-size: 20px;
+    
+}
+.linha {
+    width: 100%;
+    height: 0px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.icofont-sale-discount {
+    
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    font-size: 22px;
+}
+
+.icofont-barcode {
+    color: white;
+    font-size: 20px;
+    padding-left: 2%;
+}
+footer {
+    text-align: center;
+}
+.icofont-visa {
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+.icofont-mastercard{
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+.rodape {
+    column-width: 300px;
+    column-gap: 100px;
+    column-rule: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color:white;
+}
+.icofont-hanger{
+    color: white;
+    font-size: 30px;
+}
+.icofont-location-pin {
+    color: white;
+    font-size: 20px;
+    
+}
+.produto img {
+    border-radius: 20%;
+    
+}

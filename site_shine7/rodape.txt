@@ -1,0 +1,100 @@
+rodapé
+css
+
+.rodape {
+    column-width: 300px;
+    column-gap: 100px;
+    column-rule: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color:white;
+}
+footer {
+    text-align: center;
+}
+.icofont-visa {
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+.icofont-mastercard{
+    color: white;
+    font-size: 25px;
+    padding-left: 2%;
+}
+.rodape {
+    column-width: 300px;
+    column-gap: 100px;
+    column-rule: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    color:white;
+}
+.icofont-hanger{
+    color: white;
+    font-size: 30px;
+}
+.icofont-location-pin {
+    color: white;
+    font-size: 20px;
+    
+}
+.icofont-barcode {
+    color: white;
+    font-size: 20px;
+    padding-left: 2%;
+}
+.icofont-whatsapp { 
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5px;
+  
+}
+.icofont-facebook{
+    
+    color: white;
+    font-size: 20px;
+    
+}
+h8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.icofont-instagram{
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+rodape html 
+
+<br><br>
+    <div class="linha"></div> <br>
+    <footer>
+        <div class="rodape">
+            <h8> FORMAS DE PAGAMENTO <br>
+                Aceitamos pix!
+                <i class="icofont-visa"></i>
+                <i class="icofont-mastercard"></i>
+                <i class="icofont-barcode"></i>
+            </h8>
+            <h8> ACOMPANHE A GENTE <br>
+                Nas redes sociais
+                <br>
+                <a href="https://www.instagram.com/"> <i class="icofont-instagram"></i> </a> <a
+                    href="https://www.whatsapp.com/?lang=pt_BR"> <i class="icofont-whatsapp"></i> <a
+                        href="https://pt-br.facebook.com/login/device-based/regular/login/"> <i
+                            class="icofont-facebook"></i></a>
+            </h8>
+            <h8>QUEM SOMOS <br>
+                Shine é uma marca de Artigos de Vestuário.<i class="icofont-hanger"></i>
+            </h8>
+            <h8>LOCALIZAÇÃO</h8>
+            Rua:União nº85, Barueri-SP <i class="icofont-location-pin"></i>
+            <br>
+
+
+    </footer>
+    <script src="script.js"></script>

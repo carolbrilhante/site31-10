@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title> Cadastro </title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="cadastro.js">
+    <link rel="stylesheet" href="icofont/icofont/icofont.min.css">
+
+</head>
+
+<body>
+    <header> <br><br>
+        <div class="logo"><a href="sem_alert.html"><img
+                    src="img/shine.png"></a> </div>
+        <h1> CADASTRO PESSOAL </h1>
+    </header>
+
+    <div class="container">
+
+
+        <nav>
+            <main>
+                <form id="forms">
+
+                 
+                    <label for="sexo"> Sexo: </label><br>
+
+                    <label for="fem"> </label>
+                    <input type="checkbox" name="fem" id="fem">
+                    Feminino
+
+                    <label for="masc"> </label>
+                    <input type="checkbox" name="masc" id="masc">
+                    Masculino
+                    <br><br>
+                    <label for="nome"> <i class="icofont-user-alt-5"></i> Nome: </label>
+                    <br>
+                    <input type="text" name="nome" style="background-color: rgb(255, 255, 255); color: black;"
+                        id="nome">
+                    <br><br>
+                    <label for="endereco"> <i class="icofont-location-pin"></i> Endereco: </label>
+                    <br>
+                    <input type="text" name="endereco" style="background-color: rgb(255, 255, 255);color: black;">
+                    <br><br>
+                    <label for="email"> <i class="icofont-email"></i> E-mail: </label>
+                    <br>
+                    <input type="text" name="email" style="background-color: rgb(255, 251, 251);color: black;"
+                        id="email">
+                    <br><br>
+                    <label for="telefone"> <i class="icofont-ui-cell-phone"></i> Celular: </label>
+                    <br>
+                    <input type="number" name="telefone" style="background-color: rgb(255, 255, 255);color: black;"
+                        placeholder="(11) 99999-9999">
+                    <br><br>
+                    <label for="senha"> <i class="icofont-key-hole"></i> Senha:</label><br>
+                    <input type="password" name="senha" id="senha"
+                        style="background-color: rgb(255, 255, 255);color: black;">
+                    <input type="submit" class="btn btn-primary" id="btn_cadastro" onclick="cadastro();"
+                        style="background-color: white; color:black;" />
+                    <br>
+
+
+
+
+
+                </form>
+
+        </nav>
+
+        <script>
+            function cadastro() {
+                alert("OBRIGADA POR SE CADASTRAR, FIQUE ATENTA(O) AS NOVIDADES POR E-MAIL! 💖");
+                window.open("sem_alert.html");
+            }
+
+        </script>
+        </main>
+</body>

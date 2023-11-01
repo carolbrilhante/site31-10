@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando estilos CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .grids {
+            display: grid;
+            /*Modo de exibição*/
+            grid-template-columns: repeat(5, 1fr);
+            /* Cria três colunas de largura igual */
+            gap: 10px;
+            /* Espaçamento entre as caixas */
+            border: 1px solid #ccc;
+            /* estilo para borda */
+            padding: 10px;
+            /* Espaçamento interno entre borda e conteúdo */
+        }
+        .box {
+            background: rgb(204, 204, 204);
+            border: 1px solid rgb(0, 0, 0);
+            box-shadow: 5px 5px 5px rgb(204, 204, 204);
+            padding: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+            <h2>class="grids"</h2>
+            <div class="grids">
+                <!--Linha 1-->
+                <div class="box">class="box" Linha 1 Caixa 1</div>
+                <div class="box">class="box" Linha 1 Caixa 2</div>
+                <div class="box">class="box" Linha 1 Caixa 3</div>
+                <div class="box">class="box" Linha 1 Caixa 4</div>
+                <div class="box">class="box" Linha 1 Caixa 5</div>
+                <!--Linha 2-->
+                <div class="box">class="box" Linha 2 Caixa 1</div>
+                <div class="box">class="box" Linha 2 Caixa 2</div>
+                <div class="box">class="box" Linha 2 Caixa 3</div>
+                <div class="box">class="box" Linha 2 Caixa 4</div>
+                <div class="box">class="box" Linha 1 Caixa 5</div>
+            </div>
+    </main>
+</body>
+</html>
