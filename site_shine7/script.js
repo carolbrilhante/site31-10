@@ -31,20 +31,3 @@ function showSlides() {
     setTimeout(showSlides, 3000);
 }
 showSlides();
-
-function abrir(){
-    const pesquisar = document.getElementById("pesquisar");
-    alert(pesquisar.value);
-    if(pesquisar.value=='blusa'){
-        window.open('');
-        //alert('vai para blusas');
-    } else if(pesquisar.value=='calça'){
-        //alert('vai para calça');
-    } else if(pesquisar.value=='shorts'){
-       // alert('vai para shorts');
-    } else {
-       alert('Página não encontrada');
-    }
-
-    
-}
